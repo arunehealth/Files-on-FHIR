@@ -1,0 +1,31 @@
+#Every FHIR resource is composed of a collection of predefined data types. 
+You can’t create whatever you want to create.
+FHIR constraints working within an existing set of data types — some simple, some complex. 
+
+#Most data types fall into the ‘Primitive’ or ‘General Purpose’ categories.
+
+Some Primitive data types:
+
+- date
+- string
+- boolean
+- url
+
+‘General Purpose’ data types are bigger and store more complex pieces of data. They tend to be small objects that are useful across a wide range of resources and elements.
+
+- Ratio
+- HumanName
+- Address
+- Coding
+
+These different data types are the building blocks of the various FHIR resources and elements. 
+
+
+Every data type — even the Primitives like string and boolean — can contain Extensions. An Extension can be composed of almost any data type — even the more complex ‘General Purpose’ ones.
+
+This is by design.
+
+
+#More about data types: https://lnkd.in/evR2XBbP 
+
+#Example of a complex data type: https://lnkd.in/eMjkqekn
