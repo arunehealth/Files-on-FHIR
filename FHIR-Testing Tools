@@ -1,0 +1,76 @@
+# FHIR-TestTools
+This is an open repo of FHIR testing tools 
+
+# Intro
+
+Validation tools are key for preventing developers from deviating too far from HL7 FHIR standards.
+
+Validation and testing tools can aid in the transition to an interoperable health care infrastructure. Developers that use testing and validation tools tend to produce more compliant FHIR implementations. When it comes to health data interoperability, “practice makes perfect.”
+
+
+# List of tools 
+## MITRE Crucible Project
+
+Crucible is a set of open-source testing tools for HL7 International FHIR developed by MITRE.
+
+It is provided as a free and public service to the FHIR development community to promote correct FHIR implementations. 
+
+Its capabilities include the testing of servers for conformance to the FHIR standard, scoring patient records for completeness, and generating synthetic patient data suitable for testing
+
+Developers can test their FHIR implementations through the Crucible website here  - https://projectcrucible.org/ 
+
+### Functionalities
+
+1. Server compliance tests may be manually run through the public instance of Crucible.
+
+2. Server compliance tests of known servers are automated to run every 3 days through the public instance of Crucible.
+
+3. Server compliance tests may be run on private instances of Crucible behind a private firewall.
+
+## Touchstone
+
+Touchstone is an open-access platform which combines automated lab-based testing initiatives and cloud-based Test-as-a-Service Developers Integration Lab. 
+
+AEGIS.net hosts this platform to address FHIR and used by developers and quality assurance experts in health care information technology.
+
+Users can privately test their FHIR implementations by navigating to the Touchstone Project site here - https://touchstone.com/
+
+### Functionalities
+
+1. Testing both client applications and server implementations, while supporting peer-to-peer, multi-actor scenarios (ie, care coordination and workflow) in a unified testing approach.
+
+2. Testing is based entirely on the FHIR Test Script Resource, allowing for crowdsourcing future test case development.
+
+3. Multi-version FHIR support, which facilitates testing backwards compatibility and future-proofing systems and products to ensure a continuously interoperable ecosystem.
+
+## Inferno
+
+Introduced by the Office of the National Coordinator for Health Information Technology (ONC)
+
+Inferno offers a rich and rigorous set of testing tools to help health IT developers make sure the FHIR standard is consistently implemented.
+
+The Inferno Framework is a standards conformance testing framework
+
+It can be used to develop tests for  own use cases, like HL7 FHIR implementation Guide conformance testing here - https://inferno.healthit.gov/
+
+### Functionalities
+
+1. Designed to verify that developers’ FHIR servers meet the leading industry standards most often implemented as part of a FHIR deployment (e.g., Argonaut Implementation Guide, OAuth 2.0, Open ID Connect, and other best-practices contained in the SMART App Authorization Guide)
+
+2. includes some bells and whistles, such as testing for Dynamic Client Registration, and has a step-by-step approach for testing each of the standardized interactions needed for apps to register and securely connect to a FHIR server
+
+3. Advance application programming interfaces in support of the Cures Act’s goals
+
+# References:
+
+https://www.healthit.gov/buzz-blog/interoperability/onc-is-fhird-up-unwrapping-the-new-inferno-testing-suite/
+
+https://healthitanalytics.com/news/fhir-testing-tools-can-foster-interoperability-health-data-exchange
+
+https://medinform.jmir.org/2018/4/e10870/
+
+Inferno's Code repo - https://github.com/onc-healthit/inferno 
+
+https://www.devdays.com/wp-content/uploads/2021/12/Testing-HL7%C2%AE-FHIR%C2%AE-Implementation-Guides-with-Inferno-DevDays-2020-Virtual.pdf 
+
+https://www.youtube.com/watch?v=QTY1HbigsjQ
