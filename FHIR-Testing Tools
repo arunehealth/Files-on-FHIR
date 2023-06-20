@@ -61,6 +61,9 @@ It can be used to develop tests for  own use cases, like HL7 FHIR implementation
 
 3. Advance application programming interfaces in support of the Cures Act’s goals
 
+##FHIR Validator
+https://github.com/navikt/fhir-validator-junit-engine
+
 # References:
 
 https://www.healthit.gov/buzz-blog/interoperability/onc-is-fhird-up-unwrapping-the-new-inferno-testing-suite/
